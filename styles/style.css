@@ -4,6 +4,8 @@
   body{
     font-family: "Azeret Mono",monospace;
   }
+  
+  
   /* banner */
 
   .banner{
@@ -33,6 +35,7 @@
   .banner-description{
     color: #0D1321;
     text-align: center;
+    margin-top: 24px;
     
   }
   .button{
@@ -43,6 +46,7 @@
   .btn{
     font-family: "Azeret Mono",monospace;
     margin-bottom: 25px;
+    margin-top: 32px;
      padding: 15px 18px; 
     border-radius: 8px;
     background-color: #1E1E1E;
@@ -205,16 +209,16 @@
     
   }
     .support{
-    background-image: url('../assets/handshake.jpg');
+    background-image:url('../assets/handshake.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
+
     border-radius: 16px;
     margin: 50px 150px;
     padding: 64px 48px; 
     border-radius: 16px;
-    
-    
+   
 
     }
 
@@ -224,7 +228,7 @@
       font-weight: bold;
     }
     .sup-content{
-      color: white;
+       color: rgba(255, 255, 255, 0.678);
       
     }
 
