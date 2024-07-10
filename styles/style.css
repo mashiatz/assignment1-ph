@@ -122,7 +122,7 @@
       font-size: 32px;
       font-weight: 800;
       text-align: center;
-     margin-top: 100px;
+     margin-top: 90px;
      
       
 
@@ -146,21 +146,33 @@
       align-items: center;
       
     }
-    /* targets design */
+    
+/*targetss */
+
+    .section3-title{
+      font-size: 32px;
+     font-weight: 800;
+     text-align: center;
+     margin-top: 135px;
+     margin-bottom: 24px;
+    }
+    .section3-description{
+      color: #0D1321;
+      text-align: center;
+      margin-bottom: 48px;
+      }
 
     .targets{
       display: flex;
-      margin: 50px 150px;
+     margin: 50px 150px;
       gap: 24px;
     }
 
-
-
-    .target-title{
+   .target-title{
       font-size: 24px;
-      font-weight:900;
-     
+      font-weight:900; 
     }
+
     .target-description{
       color: #0D1321;
     }
@@ -168,9 +180,6 @@
       background-color: rgba(255, 76, 30, 0.1);
       padding: 40px;
       border-radius: 16px;
-      
-      
-      
     }
     .target2{
       background-color: rgba(0, 76, 232, 0.1);
@@ -182,8 +191,13 @@
       background-color: rgba(255, 223, 0, 0.1);
       padding: 40px;
       border-radius: 16px;
-
     }
+    .learnmore{
+      font-weight: bold;
+      color: #0D1321;
+    }
+
+    /* I need support */
   .need-support{
     display: flex;
    justify-content: center;
