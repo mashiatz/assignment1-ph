@@ -186,9 +186,53 @@
       background-color: rgba(255, 223, 0, 0.1);
       padding: 40px;
       border-radius: 16px;
-      
-      
 
     }
+  .need-support{
+    display: flex;
+   justify-content: center;
+    text-align: center;
+  }
+    .support{
+      background-image: url('../assets/handshake.jpg');
+      
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    border-radius: 16px;
+    margin: 150px 150px;
+    padding: 64px 48px; 
+    }
 
+    .sup-title{
+      color: white;
+      font-size: 32px;
+      font-weight: bold;
+    }
+    .sup-content{
+      color: white;
+      
+    }
 
+    input[type="text"]{
+      font-family: "Azeret Mono",monospace;
+      color: #0D1321;
+      height: 57px;
+      width: 545px;
+      padding-left: 20px;
+      border: none;
+      border-radius: 8px;
+    }
+
+    input[type="submit"]{
+      color: #0D1321;
+      font-size: 20px;
+      font-weight: 500;
+      font-family: "Azeret Mono",monospace;
+      height: 57px;
+      width: 120px;
+      border: none;
+      border-radius: 8px;
+      
+     
+    }
