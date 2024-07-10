@@ -150,5 +150,45 @@
       align-items: center;
       
     }
+    /* targets design */
+
+    .targets{
+      display: flex;
+      margin: 50px 150px;
+      gap: 24px;
+    }
+
+
+
+    .target-title{
+      font-size: 24px;
+      font-weight:900;
+     
+    }
+    .target-description{
+      color: #0D1321;
+    }
+    .target1{
+      background-color: rgba(255, 76, 30, 0.1);
+      padding: 40px;
+      border-radius: 16px;
+      
+      
+      
+    }
+    .target2{
+      background-color: rgba(0, 76, 232, 0.1);
+      padding: 40px;
+      border-radius: 16px;
+     
+    }
+    .target3{
+      background-color: rgba(255, 223, 0, 0.1);
+      padding: 40px;
+      border-radius: 16px;
+      
+      
+
+    }
 
 
