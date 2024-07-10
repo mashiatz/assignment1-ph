@@ -202,6 +202,10 @@
     border-radius: 16px;
     margin: 150px 150px;
     padding: 64px 48px; 
+
+
+    border-radius: 16px;
+
     }
 
     .sup-title{
@@ -235,4 +239,21 @@
       border-radius: 8px;
       
      
+    }
+    /* footer */
+    .footer{
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      
+      
+    }
+    .footer p{
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .footer ul li{
+      list-style: none;
+      display: inline-block;
+      
     }
