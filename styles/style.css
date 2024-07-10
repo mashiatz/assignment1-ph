@@ -24,9 +24,6 @@
    
    
   }
-
-  
-
   .banner-title{
     font-size: 48px;
     font-weight: 800;
@@ -46,39 +43,36 @@
   .btn{
     font-family: "Azeret Mono",monospace;
     margin-bottom: 25px;
-     padding: 15px 12px; 
-    border-radius: 5px;
+     padding: 15px 18px; 
+    border-radius: 8px;
     background-color: #1E1E1E;
     color: white;
     font-size: 16px;
     font-weight: 500;
     }
+
     /* section part */
    .whywebdev{
     padding: 80px 97px;
-    margin-top: 70px;
+    margin-top: 74px;
     margin-left: 150px;
     margin-right: 150px;
     background-color: #f8f9fa;
-   }
-   
-
-
+    border-radius: 16px;
+  }
     .section-title{
       font-size: 32px;
       font-weight: 800;
       text-align: center;
-      margin-top: 90px;
-      
-
-    }
+      margin-top: 40px;
+    margin-bottom: 24px;
+  }
     .section-description{
       color: #0D1321;
       text-align: center;
-      
-      margin-bottom: 45px;
-    }
-
+      margin-bottom: 24px;
+   }
+  
     .section-content-title{
       font-size: 24px;
       font-weight: bold;
@@ -101,9 +95,10 @@
     .section-content1, .section-content3{
       display: flex;
       padding: 48px 48px;
-      margin: 97px 32px; 
-     border-radius: 5px;
+      margin: 32px; 
+     border-radius: 16px;
      background-color: white;
+
     }
     .content1, .content3{
       margin-right: 60px;
@@ -113,13 +108,14 @@
       display: flex;
       gap: 32px;
       padding: 48px 48px;
-      margin: 97px 32px;
-      border-radius: 5px;
+      margin: 32px;
+      border-radius: 16px;
       background-color: white;
     }
     .content2{
       margin-left: 40px;
     }
+
     /* section2=inspiration part */
 
     .section2-title{
@@ -255,5 +251,5 @@
     .footer ul li{
       list-style: none;
       display: inline-block;
-      
+     
     }
