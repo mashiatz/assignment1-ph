@@ -68,10 +68,15 @@
       font-size: 32px;
       font-weight: 800;
       text-align: center;
+      margin-top: 90px;
+      
+
     }
     .section-description{
       color: #0D1321;
       text-align: center;
+      
+      margin-bottom: 45px;
     }
 
     .section-content-title{
@@ -114,6 +119,36 @@
     }
     .content2{
       margin-left: 40px;
+    }
+    /* section2=inspiration part */
+
+    .section2-title{
+      font-size: 32px;
+      font-weight: 800;
+      text-align: center;
+     margin-top: 100px;
+     
+      
+
+    }
+    .section2-description{
+      color: #0D1321;
+      text-align: center;
+      margin-bottom: 10px;
+      
+     
+    }
+
+    .inspo-vdo{
+      
+      border: 2px solid lightgrey;
+      border-radius: 16px;
+      padding: 32px;
+      margin: 48px 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
     }
 
 
